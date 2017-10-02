@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `BaseInt` type in crate `ramp`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, BaseInt">
+
+    <title>ramp::ll::limb::BaseInt - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc type">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Type Definition BaseInt</p><div class="block items"><ul><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='../../index.html'>ramp</a>::<wbr><a href='../index.html'>ll</a>::<wbr><a href='index.html'>limb</a></p><script>window.sidebarCurrent = {name: 'BaseInt', ty: 'type', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Type Definition <a href='../../index.html'>ramp</a>::<wbr><a href='../index.html'>ll</a>::<wbr><a href='index.html'>limb</a>::<wbr><a class="type" href=''>BaseInt</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#37' title='goto source code'>[src]</a></span></h1>
+<pre class='rust typedef'>type BaseInt = <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>;</pre>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 id='impl-Add&lt;Limb&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html" title="trait core::ops::arith::Add">Add</a>&lt;<a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Add&lt;Limb&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#181-188' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output' class="type"><span id='Output.t' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>+</code> operator.</p>
+</div><h4 id='method.add' class="method"><span id='add.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#tymethod.add' class='fnname'>add</a>(self, other: <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>) -&gt; <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#185-187' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>+</code> operation.</p>
+</div></div><h3 id='impl-Sub&lt;Limb&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html" title="trait core::ops::arith::Sub">Sub</a>&lt;<a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Sub&lt;Limb&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#217-224' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-1' class="type"><span id='Output.t-1' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>-</code> operator.</p>
+</div><h4 id='method.sub' class="method"><span id='sub.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#tymethod.sub' class='fnname'>sub</a>(self, other: <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>) -&gt; <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#221-223' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>-</code> operation.</p>
+</div></div><h3 id='impl-Mul&lt;Limb&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html" title="trait core::ops::arith::Mul">Mul</a>&lt;<a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Mul&lt;Limb&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#244-251' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-2' class="type"><span id='Output.t-2' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>*</code> operator.</p>
+</div><h4 id='method.mul' class="method"><span id='mul.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#tymethod.mul' class='fnname'>mul</a>(self, other: <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a>) -&gt; <a class="struct" href="../../../ramp/ll/limb/struct.Limb.html" title="struct ramp::ll::limb::Limb">Limb</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/ll/limb.rs.html#248-250' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>*</code> operation.</p>
+</div></div><h3 id='impl-Add&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html" title="trait core::ops::arith::Add">Add</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Add&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2834-2841' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-3' class="type"><span id='Output.t-3' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>+</code> operator.</p>
+</div><h4 id='method.add-1' class="method"><span id='add.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#tymethod.add' class='fnname'>add</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2838-2840' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>+</code> operation.</p>
+</div></div><h3 id='impl-Add&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html" title="trait core::ops::arith::Add">Add</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Add&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2843-2850' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-4' class="type"><span id='Output.t-4' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>+</code> operator.</p>
+</div><h4 id='method.add-2' class="method"><span id='add.v-2' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Add.html#tymethod.add' class='fnname'>add</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2847-2849' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>+</code> operation.</p>
+</div></div><h3 id='impl-Sub&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html" title="trait core::ops::arith::Sub">Sub</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Sub&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2861-2868' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-5' class="type"><span id='Output.t-5' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>-</code> operator.</p>
+</div><h4 id='method.sub-1' class="method"><span id='sub.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#tymethod.sub' class='fnname'>sub</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2865-2867' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>-</code> operation.</p>
+</div></div><h3 id='impl-Sub&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html" title="trait core::ops::arith::Sub">Sub</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Sub&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2870-2877' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-6' class="type"><span id='Output.t-6' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>-</code> operator.</p>
+</div><h4 id='method.sub-2' class="method"><span id='sub.v-2' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Sub.html#tymethod.sub' class='fnname'>sub</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2874-2876' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>-</code> operation.</p>
+</div></div><h3 id='impl-Mul&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html" title="trait core::ops::arith::Mul">Mul</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Mul&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2888-2895' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-7' class="type"><span id='Output.t-7' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>*</code> operator.</p>
+</div><h4 id='method.mul-1' class="method"><span id='mul.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#tymethod.mul' class='fnname'>mul</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2892-2894' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>*</code> operation.</p>
+</div></div><h3 id='impl-Mul&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html" title="trait core::ops::arith::Mul">Mul</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Mul&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2897-2906' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-8' class="type"><span id='Output.t-8' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>*</code> operator.</p>
+</div><h4 id='method.mul-2' class="method"><span id='mul.v-2' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html#tymethod.mul' class='fnname'>mul</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2901-2905' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>*</code> operation.</p>
+</div></div><h3 id='impl-Div&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html" title="trait core::ops::arith::Div">Div</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Div&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2920-2936' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-9' class="type"><span id='Output.t-9' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>/</code> operator.</p>
+</div><h4 id='method.div' class="method"><span id='div.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html#tymethod.div' class='fnname'>div</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2924-2935' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>/</code> operation.</p>
+</div></div><h3 id='impl-Div&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html" title="trait core::ops::arith::Div">Div</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Div&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2938-2950' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-10' class="type"><span id='Output.t-10' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>/</code> operator.</p>
+</div><h4 id='method.div-1' class="method"><span id='div.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Div.html#tymethod.div' class='fnname'>div</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2942-2949' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>/</code> operation.</p>
+</div></div><h3 id='impl-Rem&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html" title="trait core::ops::arith::Rem">Rem</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Rem&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2967-2983' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-11' class="type"><span id='Output.t-11' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>%</code> operator.</p>
+</div><h4 id='method.rem' class="method"><span id='rem.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html#tymethod.rem' class='fnname'>rem</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2971-2982' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>%</code> operation.</p>
+</div></div><h3 id='impl-Rem&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html" title="trait core::ops::arith::Rem">Rem</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-Rem&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2985-2997' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-12' class="type"><span id='Output.t-12' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>%</code> operator.</p>
+</div><h4 id='method.rem-1' class="method"><span id='rem.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/arith/trait.Rem.html#tymethod.rem' class='fnname'>rem</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#2989-2996' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>%</code> operation.</p>
+</div></div><h3 id='impl-BitAnd&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html" title="trait core::ops::bit::BitAnd">BitAnd</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitAnd&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3018-3025' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-13' class="type"><span id='Output.t-13' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>&amp;</code> operator.</p>
+</div><h4 id='method.bitand' class="method"><span id='bitand.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html#tymethod.bitand' class='fnname'>bitand</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3022-3024' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>&amp;</code> operation.</p>
+</div></div><h3 id='impl-BitAnd&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html" title="trait core::ops::bit::BitAnd">BitAnd</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitAnd&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3027-3034' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-14' class="type"><span id='Output.t-14' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>&amp;</code> operator.</p>
+</div><h4 id='method.bitand-1' class="method"><span id='bitand.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitAnd.html#tymethod.bitand' class='fnname'>bitand</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3031-3033' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>&amp;</code> operation.</p>
+</div></div><h3 id='impl-BitOr&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html" title="trait core::ops::bit::BitOr">BitOr</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitOr&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3055-3062' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-15' class="type"><span id='Output.t-15' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>|</code> operator.</p>
+</div><h4 id='method.bitor' class="method"><span id='bitor.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html#tymethod.bitor' class='fnname'>bitor</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3059-3061' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>|</code> operation.</p>
+</div></div><h3 id='impl-BitOr&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html" title="trait core::ops::bit::BitOr">BitOr</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitOr&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3064-3071' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-16' class="type"><span id='Output.t-16' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>|</code> operator.</p>
+</div><h4 id='method.bitor-1' class="method"><span id='bitor.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitOr.html#tymethod.bitor' class='fnname'>bitor</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3068-3070' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>|</code> operation.</p>
+</div></div><h3 id='impl-BitXor&lt;Int&gt;' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html" title="trait core::ops::bit::BitXor">BitXor</a>&lt;<a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitXor&lt;Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3092-3099' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-17' class="type"><span id='Output.t-17' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>^</code> operator.</p>
+</div><h4 id='method.bitxor' class="method"><span id='bitxor.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html#tymethod.bitxor' class='fnname'>bitxor</a>(self, other: <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3096-3098' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>^</code> operation.</p>
+</div></div><h3 id='impl-BitXor&lt;&amp;&#39;a Int&gt;' class='impl'><span class='in-band'><code>impl&lt;'a&gt; <a class="trait" href="https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html" title="trait core::ops::bit::BitXor">BitXor</a>&lt;&amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>&gt; for <a class="type" href="../../../ramp/ll/limb/type.BaseInt.html" title="type ramp::ll::limb::BaseInt">BaseInt</a></code><a href='#impl-BitXor&lt;&amp;&#39;a Int&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3101-3108' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Output-18' class="type"><span id='Output.t-18' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html#associatedtype.Output' class="type">Output</a> = <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span></h4>
+<div class='docblock'><p>The resulting type after applying the <code>^</code> operator.</p>
+</div><h4 id='method.bitxor-1' class="method"><span id='bitxor.v-1' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/bit/trait.BitXor.html#tymethod.bitxor' class='fnname'>bitxor</a>(self, other: &amp;'a <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a>) -&gt; <a class="struct" href="../../../ramp/int/struct.Int.html" title="struct ramp::int::Int">Int</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/ramp/int.rs.html#3105-3107' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs the <code>^</code> operation.</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../../";
+        window.currentCrate = "ramp";
+    </script>
+    <script src="../../../main.js"></script>
+    <script defer src="../../../search-index.js"></script>
+</body>
+</html>
